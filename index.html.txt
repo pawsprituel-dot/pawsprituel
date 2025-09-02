@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paw Spritüel – İnsan ve Köpeğin Ortak Ruhsal Yolculuğu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Lora', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: #0f0a1c;
+            color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 2px solid #5d5d81;
+        }
+
+        header h1 {
+            margin: 0;
+            font-family: 'Cinzel', serif;
+            font-size: 3em;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            color: #ffde59;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .section-title {
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            font-size: 2.5em;
+            color: #a45a99;
+            margin-top: 60px;
+            margin-bottom: 40px;
+            letter-spacing: 1px;
+        }
+        
+        .mission-statement {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 40px;
+            color: #d0d0d0;
+            font-size: 1.2em;
+        }
+
+        .package-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .package-card {
+            background-color: #2a2a47;
+            border: 1px solid #4b4b6b;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+            max-width: 350px;
+            text-align: center;
+        }
+
+        .package-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+            border-color: #ffde59;
+        }
+
+        .package-card h3 {
+            font-family: 'Cinzel', serif;
+            color: #ffde59;
+            font-size: 1.8em;
+            margin-top: 0;
+        }
+        
+        .package-card h4 {
+            color: #a45a99;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .package-card p {
+            font-size: 1.1em;
+            color: #d0d0d0;
+        }
+        
+        .package-card ul {
+            text-align: left;
+            margin: 20px 0;
+            padding-left: 20px;
+            list-style: none;
+        }
+        
+        .package-card ul li {
+            position: relative;
+            margin-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        .package-card ul li:before {
+            content: "✦";
+            color: #a45a99;
+            position: absolute;
+            left: 0;
+        }
+
+        .session-info {
+            font-weight: bold;
+            color: #ffde59;
+            margin-top: 15px;
+        }
+
+        .contact-section {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #0f0a1c;
+            margin-top: 60px;
+        }
+
+        .contact-section h2 {
+            font-family: 'Cinzel', serif;
+            color: #a45a99;
+            margin-bottom: 20px;
+        }
+
+        .social-icons a {
+            color: #ffde59;
+            font-size: 2em;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            color: #d0d0d0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0f0a1c;
+            border-top: 1px solid #4b4b6b;
+            color: #a45a99;
+        }
+
+        /* Responsive Tasarım */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+            .section-title {
+                font-size: 2em;
+            }
+            .package-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .package-card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Paw Spritüel – İnsan ve Köpeğin Ortak Ruhsal Yolculuğu</h1>
+    </header>
+
+    <main>
+        <h2 class="section-title">Hizmet Paketlerimiz</h2>
+        <p class="mission-statement">İnsan ve köpek arasındaki ruhsal bağı derinleştirmek, sezgisel iletişimi ve farkındalığı artırmak.</p>
+        <div class="package-container">
+            <div class="package-card">
+                <h3>Paket 1: Ruhsal Uyanış ve Bağ Kurma</h3>
+                <h4>Kimler İçin İdeal?</h4>
+                <p>Köpeğiyle daha derin, enerjisel bir bağ kurmak isteyenler. Hayvanların spiritüel boyutunu keşfetmeye meraklı olanlar.</p>
+                <p class="session-info">3 seanslık başlangıç paketi (Haftada 1 seans)</p>
+                <h4>İçerik</h4>
+                <ul>
+                    <li>Köpeğinizin enerji alanını ve beden dilini "sezgisel" olarak anlama.</li>
+                    <li>Sahip ve köpek için ilk ortak nefes ve sakinleşme pratikleri.</li>
+                    <li>Koşulsuz sevgi enerjisini aktive etme egzersizleri.</li>
+                    <li>Köpeklerin ruhsal rehberliğinin ilk işaretleri.</li>
+                </ul>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 2: Derin Bağlar ve Enerji Dengelemesi</h3>
+                <h4>Kimler İçin İdeal?</h4>
+                <p>Köpeğiyle olan enerjisel uyumunda blokajlar hissedenler. Ortak meditasyon ve şifa tekniklerini deneyimlemek isteyenler.</p>
+                <p class="session-info">5 seanslık derinlemesine program (Haftada 1 seans)</p>
+                <h4>İçerik</h4>
+                <ul>
+                    <li>Köpek ve sahibi için bireysel ve ortak enerji okumaları.</li>
+                    <li>Çakra dengeleme ve aura temizleme (hem sahip hem de köpek için).</li>
+                    <li>Duygusal bağları güçlendiren ileri seviye ortak meditasyonlar.</li>
+                    <li>Köpeğinizin içsel mesajlarını "hissetme" yeteneğini geliştirme.</li>
+                </ul>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 3: Spiritüel Yol Arkadaşlığı ve Telepati</h3>
+                <h4>Kimler İçin İdeal?</h4>
+                <p>Köpeğiyle telepatik düzeyde iletişim kurmayı arzulayanlar. Hayvanların bilincini ve ruhsal öğretilerini keşfetmek isteyenler.</p>
+                <p class="session-info">Kapsamlı ve kişiye özel mentorluk programı (6+ seans, esnek)</p>
+                <h4>İçerik</h4>
+                <ul>
+                    <li>Sezgisel iletişime giriş ve telepatik bağ kurma atölyesi.</li>
+                    <li>Köpeğinizden ruhsal rehberlik alma pratikleri.</li>
+                    <li>Ortak şifa meditasyonları ve enerji transferi.</li>
+                    <li>Doğada kutsal ritüeller ve farkındalık yürüyüşleri (İzmir ve çevresi).</li>
+                </ul>
+            </div>
+        </div>
+        
+        <h2 class="section-title">Sadece İnsanlara Yönelik Paketler</h2>
+        <div class="package-container">
+            <div class="package-card">
+                <h3>Paket 1: Meditasyon ve Enerjiye Giriş</h3>
+                <p class="session-info">Toplam: 4 Seans</p>
+                <h4>İçerik</h4>
+                <ul>
+                    <li>Nefes ve odaklanma pratikleriyle temel meditasyon.</li>
+                    <li>Enerji bedenini ve aurasını anlama.</li>
+                    <li>Tıbbi aromatik bitkilerin kullanımı ve tütsü yapımı.</li>
+                    <li>Kendi koruma alanını oluşturma teknikleri.</li>
+                </ul>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 2: Kristaller ve Şifa Sanatı</h3>
+                <p class="session-info">Toplam: 6 Seans</p>
+                <h4>İçerik</h4>
+                <ul>
+                    <li>Doğal taşların enerjisel özellikleri ve doğru kullanımı.</li>
+                    <li>Kristallerle çakra dengeleme ve şifa meditasyonları.</li>
+                    <li>Enerji temizliği ve arınma ritüelleri.</li>
+                    <li>Kendi kişisel tılsımını hazırlama.</li>
+                </ul>
+            </div>
+
+            <div class="package-card">
+                <h3>Paket 3: Modern Büyüler ve Yaşam Ritüelleri</h3>
+                <p class="session-info">Toplam: 8 Seans</p>
+                <h4>İçerik</h4>
+                <ul>
+                    <li>Basit ritüel ve büyü temelleri.</li>
+                    <li>Para, aşk, sağlık ve bereket için niyet çalışmaları.</li>
+                    <li>Dolunay ve yeni ay ritüellerinin uygulanması.</li>
+                    <li>Hayat amacına yönelik rehberlik ve mentorluk.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <section class="contact-section">
+        <h2>Bize Ulaşın</h2>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/pawsprituel" target="_blank" aria-label="Instagram Sayfamız">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/905537322235?text=Merhaba,%20Paw%20Spritüel%20hakkında%20bilgi%20almak%20istiyorum." target="_blank" aria-label="WhatsApp ile İletişim">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        <p class="contact-info">Sorularınız için bizimle iletişime geçebilirsiniz.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Paw Spritüel. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+</body>
+</html>
